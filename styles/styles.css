@@ -1,0 +1,32 @@
+.contenedor{
+    max-width: 900px;
+    width: 100%;
+    min-height: 300px;
+    border:dashed 1px #808080;
+    padding: 10px;
+}
+.item{
+    width: 60px;
+    height: 90px;
+    border: solid .5px #000;
+    background-image: url(../imagenes/portada.png);
+    background-repeat: no-repeat;
+    background-position: 5px 10px;
+    background-size: 50px;
+    display: inline-block;
+    margin: 10px;
+}
+.checked-item{
+        background-image: url(../imagenes/paloma.png);
+} 
+.img-logo{
+    width: 160px;
+    margin: 0 auto;
+    display: block;
+}
+.cabecera-principal{
+    margin-bottom: 10px;
+}
+.titulo-juego{
+    text-align: center;
+}
